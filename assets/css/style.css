@@ -325,5 +325,22 @@ textarea {
     }
 }
 @media screen and (max-width:640px){
+    #sideBar{
+        width: 400px;
+    }
+    #mainContent{
+        width: 400px;
+    }
 
+    #leftCol{
+        float:none;
+        width: 200px;
+    }
+    #rightCol{
+        float:none;
+        width: 200px;
+    }
+    .tile{
+        height:175px;
+    }
 }
