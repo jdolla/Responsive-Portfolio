@@ -153,6 +153,8 @@ body {
     background: #fffefc;
     padding: 10px 10px 0 10px;
     border-width: .5px;
+    height: 150px;
+    margin-bottom: 24px;
 }
 
 #sideBar h2{
@@ -297,14 +299,30 @@ textarea {
         width: 100%;
     }
     #mainContent{
-        width:350px;
+        width:300px;
     }
     .wrapper{
-        width: 70%;
+        width: 600px;
     }
 }
 @media screen and (max-width:768px){
+    #sideBar{
+        float: none;
+        width: 570px;
+    }
+    #mainContent{
+        float:none;
+        width: 550px;
+    }
 
+    #leftCol{
+        float:left;
+        width: 260px;
+    }
+    #rightCol{
+        float:right;
+        width: 260px;
+    }
 }
 @media screen and (max-width:640px){
 
