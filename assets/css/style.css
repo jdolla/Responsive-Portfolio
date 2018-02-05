@@ -5,7 +5,6 @@ html, body {
 body {
     display: flex;
     flex-direction: column;
-    min-width: 960px;
 }
 
 .content {
@@ -121,6 +120,7 @@ body {
     float: left;
     width: 650px;
     background: #fffefc;
+    margin-bottom: 24px;
 }
 
 #mainContent h2 {
@@ -285,4 +285,27 @@ textarea {
     color:#ffff;
     opacity: .95;
     
+}
+
+@media screen and (max-width:980px){
+    #leftCol{
+        float: none;
+        width: 100%;
+    }
+    #rightCol{
+        float: none;
+        width: 100%;
+    }
+    #mainContent{
+        width:350px;
+    }
+    .wrapper{
+        width: 70%;
+    }
+}
+@media screen and (max-width:768px){
+
+}
+@media screen and (max-width:640px){
+
 }
