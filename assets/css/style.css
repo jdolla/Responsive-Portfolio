@@ -304,6 +304,13 @@ textarea {
     .wrapper{
         width: 600px;
     }
+    #profilePic{
+        float:none;
+        padding:0;
+        width:100%;
+        height:auto;
+        margin: 0;
+    }
 }
 @media screen and (max-width:768px){
     #sideBar{
@@ -323,24 +330,70 @@ textarea {
         float:right;
         width: 260px;
     }
+    #profilePic{
+        float: left;
+        width: 180px;
+        height: 180px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+    }
+
 }
 @media screen and (max-width:640px){
     #sideBar{
-        width: 400px;
+        width: 280px;
+        margin-left: auto;
+        margin-right: auto;
     }
     #mainContent{
-        width: 400px;
+        width: 260px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     #leftCol{
         float:none;
-        width: 200px;
+        width: 100%;
     }
+    
     #rightCol{
         float:none;
-        width: 200px;
+        width: 100%;
     }
+
     .tile{
         height:175px;
+    }
+
+    #nameTag{
+        float:none;
+        height: auto;
+        width: 100%;
+        margin-bottom: 2px;
+    }
+    #topNav{
+        float:none;
+    }
+    .wrapper {
+        width: 100%;
+    }
+    #nameTagValue{
+        padding: 10px;
+    }
+    #top{
+        height:100px;
+    }
+    #topNav .navList{
+        padding: 0 0 0 0;
+    }
+    #topNav .navList li{
+        width: 33%;
+    }
+    #profilePic{
+        float:none;
+        padding:0;
+        width:100%;
+        height:auto;
+        margin: 0;
     }
 }
